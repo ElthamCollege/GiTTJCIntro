@@ -15,6 +15,9 @@ namespace GiTTJCIntro
             string questionMark = "??";
             Console.WriteLine("What would you like to do");
 
+            Console.WriteLine("Rubbish task");
+            Console.WriteLine("Really Rubbish");
+
             // {n} - allows you to add a variable or string to your string, this will "1" to the position indicatted by {0} and a Question mark to the position indicatted by {1}
             // You might need to correct the 2nd WriteLine statement
             Console.WriteLine("{0} - Run my Quiz {1}", "1", questionMark);
